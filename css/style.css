@@ -1,14 +1,22 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-header {
+header, footer {
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
     flex-direction: column;
     padding: 20px 100px;
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
 }
 
 nav {
@@ -49,6 +57,14 @@ button {
 li, .hero-secondary-text {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .logo {
