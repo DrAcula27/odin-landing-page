@@ -67,6 +67,11 @@ main {
     flex-direction: column;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+}
+
 .logo {
     font-weight: bold;
     font-size: 18px;
@@ -83,4 +88,20 @@ main {
     align-items: center;
     margin-bottom: 50px;
     gap: 25px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    padding: 75px 250px;
+}
+
+.quote-person {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
 }
