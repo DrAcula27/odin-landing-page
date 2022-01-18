@@ -14,5 +14,5 @@
 <br></br>
 <strong>Credits:</strong>
 <ul>
-    <li>Russell Heimlich's <a href="https://dummyimage.com/#about">dummyimage.com</a> for the placeholder image in the header and information section of the main body</li>
+    <li>Russell Heimlich's <a href="https://dummyimage.com/#about">dummyimage.com</a> for the placeholder image in the header and the placeholder images in the information section of the main body</li>
 </ul>
