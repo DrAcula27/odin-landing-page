@@ -47,7 +47,7 @@ p {
 button {
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 5px 20px;
+    padding: 5px 25px;
     border: none;
     border-radius: 5px;
     font-weight: bold;
@@ -63,7 +63,7 @@ main {
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
 }
 
@@ -104,4 +104,25 @@ section {
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    padding: 40px 80px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.action-title-text {
+    font-weight: bold;
+    font-style: 18px;
+}
+
+.action-button {
+    border: 2px solid #f9faf8;
 }
