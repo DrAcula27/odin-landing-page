@@ -14,9 +14,14 @@ header, footer {
     padding: 20px 100px;
 }
 
+header {
+    margin-bottom: 25px;
+}
+
 footer {
     justify-content: center;
     align-items: center;
+    margin-top: 25px;
 }
 
 nav {
@@ -34,7 +39,7 @@ ul {
     gap: 20px;
 }
 
-img {
+.responsive-img {
     max-width: 100%;
     height: auto;
 }
@@ -70,6 +75,8 @@ main {
 section {
     display: flex;
     flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .logo {
@@ -88,6 +95,36 @@ section {
     align-items: center;
     margin-bottom: 50px;
     gap: 25px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.info-img {
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    max-width: 150px;
+    height: auto;
 }
 
 .quote {
