@@ -27,11 +27,9 @@ ul {
 }
 
 img {
-    background-color: rgba(229, 231, 235, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 75px;
 }
 
 p {
@@ -66,7 +64,7 @@ li, .hero-secondary-text {
 
 .hero-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
     gap: 25px;

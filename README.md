@@ -13,3 +13,6 @@
 <strong>Project Source:</strong> https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page
 <br></br>
 <strong>Credits:</strong>
+<ul>
+    <li>Russell Heimlich's <a href="https://dummyimage.com/#about">dummyimage.com</a> for the placeholder image in the header</li>
+</ul>
